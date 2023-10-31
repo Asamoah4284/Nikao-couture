@@ -1,0 +1,32 @@
+.section-men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 9.6rem 0;
+    &__heading{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        .hum{
+            font-size: 8rem;
+            @media(max-width:37.5em){
+                font-size: 5rem;
+            }
+        }
+        .nat{
+            color: $color-tertiary-dark
+        }
+        @media(max-width:37.5em){
+            font-size: 2rem;
+        }
+    }
+    &__text{
+        font-size: $font-size-mini;
+    }
+    &__latest{
+        // text-align: left;
+    }
+}
+

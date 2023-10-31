@@ -1,0 +1,35 @@
+*{
+    font-family:  'Playfair Display',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+    // This defines what 1rem is
+    font-size: 62.5%; 
+    
+
+@media(max-width:56.25em){
+    font-size: 56.25%; 
+
+}
+@media(max-width:75em){
+    font-size: 50%; 
+
+}
+@media(min-width:112.5em){
+    font-size: 75%; 
+
+}
+
+}
+
+body{
+    overflow-x: hidden;
+   
+}
+.main{
+    margin: 0 auto;
+    padding: 9.6rem 7rem;
+}
